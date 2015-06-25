@@ -35,6 +35,8 @@
 
 - (void)layoutSubviews
 {
+    [super layoutSubviews];
+    
     CGFloat imageViewW = self.bounds.size.width;
     CGFloat imageViewH = self.bounds.size.height;
 

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6CE401B1B3C2CF100FEAD1C /* TPCActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE40121B3C2CF100FEAD1C /* TPCActivityIndicatorView.m */; };
+		D6CE401C1B3C2CF100FEAD1C /* TPCFoldingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE40141B3C2CF100FEAD1C /* TPCFoldingImageView.m */; };
+		D6CE401D1B3C2CF100FEAD1C /* TPCGooButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE40161B3C2CF100FEAD1C /* TPCGooButton.m */; };
+		D6CE401E1B3C2CF100FEAD1C /* TPCInvertImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE40181B3C2CF100FEAD1C /* TPCInvertImageView.m */; };
+		D6CE401F1B3C2CF100FEAD1C /* TPCParticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE401A1B3C2CF100FEAD1C /* TPCParticleView.m */; };
 		D6CF09771B3B076E00FF935C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CF09761B3B076E00FF935C /* main.m */; };
 		D6CF097A1B3B076E00FF935C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CF09791B3B076E00FF935C /* AppDelegate.m */; };
 		D6CF097D1B3B076E00FF935C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CF097C1B3B076E00FF935C /* ViewController.m */; };
@@ -14,8 +19,6 @@
 		D6CF09821B3B076E00FF935C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CF09811B3B076E00FF935C /* Images.xcassets */; };
 		D6CF09851B3B076E00FF935C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6CF09831B3B076E00FF935C /* LaunchScreen.xib */; };
 		D6CF09911B3B076E00FF935C /* TPCCoreAnimationApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CF09901B3B076E00FF935C /* TPCCoreAnimationApplicationTests.m */; };
-		D6CF099D1B3B078D00FF935C /* TPCFoldingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CF099C1B3B078D00FF935C /* TPCFoldingImageView.m */; };
-		D6D16F221B3BA68500E633EA /* TPCActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D16F211B3BA68500E633EA /* TPCActivityIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6CE40111B3C2CF100FEAD1C /* TPCActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCActivityIndicatorView.h; sourceTree = "<group>"; };
+		D6CE40121B3C2CF100FEAD1C /* TPCActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCActivityIndicatorView.m; sourceTree = "<group>"; };
+		D6CE40131B3C2CF100FEAD1C /* TPCFoldingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCFoldingImageView.h; sourceTree = "<group>"; };
+		D6CE40141B3C2CF100FEAD1C /* TPCFoldingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCFoldingImageView.m; sourceTree = "<group>"; };
+		D6CE40151B3C2CF100FEAD1C /* TPCGooButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCGooButton.h; sourceTree = "<group>"; };
+		D6CE40161B3C2CF100FEAD1C /* TPCGooButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCGooButton.m; sourceTree = "<group>"; };
+		D6CE40171B3C2CF100FEAD1C /* TPCInvertImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCInvertImageView.h; sourceTree = "<group>"; };
+		D6CE40181B3C2CF100FEAD1C /* TPCInvertImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCInvertImageView.m; sourceTree = "<group>"; };
+		D6CE40191B3C2CF100FEAD1C /* TPCParticleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCParticleView.h; sourceTree = "<group>"; };
+		D6CE401A1B3C2CF100FEAD1C /* TPCParticleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCParticleView.m; sourceTree = "<group>"; };
 		D6CF09711B3B076E00FF935C /* TPCCoreAnimationApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPCCoreAnimationApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CF09751B3B076E00FF935C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6CF09761B3B076E00FF935C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,10 +55,6 @@
 		D6CF098A1B3B076E00FF935C /* TPCCoreAnimationApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPCCoreAnimationApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CF098F1B3B076E00FF935C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6CF09901B3B076E00FF935C /* TPCCoreAnimationApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPCCoreAnimationApplicationTests.m; sourceTree = "<group>"; };
-		D6CF099B1B3B078D00FF935C /* TPCFoldingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCFoldingImageView.h; sourceTree = "<group>"; };
-		D6CF099C1B3B078D00FF935C /* TPCFoldingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCFoldingImageView.m; sourceTree = "<group>"; };
-		D6D16F201B3BA68500E633EA /* TPCActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCActivityIndicatorView.h; sourceTree = "<group>"; };
-		D6D16F211B3BA68500E633EA /* TPCActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCActivityIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6CE40101B3C2CF100FEAD1C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D6CE40111B3C2CF100FEAD1C /* TPCActivityIndicatorView.h */,
+				D6CE40121B3C2CF100FEAD1C /* TPCActivityIndicatorView.m */,
+				D6CE40131B3C2CF100FEAD1C /* TPCFoldingImageView.h */,
+				D6CE40141B3C2CF100FEAD1C /* TPCFoldingImageView.m */,
+				D6CE40151B3C2CF100FEAD1C /* TPCGooButton.h */,
+				D6CE40161B3C2CF100FEAD1C /* TPCGooButton.m */,
+				D6CE40171B3C2CF100FEAD1C /* TPCInvertImageView.h */,
+				D6CE40181B3C2CF100FEAD1C /* TPCInvertImageView.m */,
+				D6CE40191B3C2CF100FEAD1C /* TPCParticleView.h */,
+				D6CE401A1B3C2CF100FEAD1C /* TPCParticleView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		D6CF09681B3B076E00FF935C = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +113,7 @@
 		D6CF09731B3B076E00FF935C /* TPCCoreAnimationApplication */ = {
 			isa = PBXGroup;
 			children = (
-				D6CF099A1B3B078D00FF935C /* Classes */,
+				D6CE40101B3C2CF100FEAD1C /* Classes */,
 				D6CF09781B3B076E00FF935C /* AppDelegate.h */,
 				D6CF09791B3B076E00FF935C /* AppDelegate.m */,
 				D6CF097B1B3B076E00FF935C /* ViewController.h */,
@@ -124,17 +150,6 @@
 				D6CF098F1B3B076E00FF935C /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D6CF099A1B3B078D00FF935C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D6CF099B1B3B078D00FF935C /* TPCFoldingImageView.h */,
-				D6CF099C1B3B078D00FF935C /* TPCFoldingImageView.m */,
-				D6D16F201B3BA68500E633EA /* TPCActivityIndicatorView.h */,
-				D6D16F211B3BA68500E633EA /* TPCActivityIndicatorView.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,11 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6CF099D1B3B078D00FF935C /* TPCFoldingImageView.m in Sources */,
+				D6CE401D1B3C2CF100FEAD1C /* TPCGooButton.m in Sources */,
 				D6CF097D1B3B076E00FF935C /* ViewController.m in Sources */,
+				D6CE401F1B3C2CF100FEAD1C /* TPCParticleView.m in Sources */,
+				D6CE401E1B3C2CF100FEAD1C /* TPCInvertImageView.m in Sources */,
+				D6CE401B1B3C2CF100FEAD1C /* TPCActivityIndicatorView.m in Sources */,
 				D6CF097A1B3B076E00FF935C /* AppDelegate.m in Sources */,
 				D6CF09771B3B076E00FF935C /* main.m in Sources */,
-				D6D16F221B3BA68500E633EA /* TPCActivityIndicatorView.m in Sources */,
+				D6CE401C1B3C2CF100FEAD1C /* TPCFoldingImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

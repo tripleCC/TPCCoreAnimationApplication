@@ -58,7 +58,7 @@
     _replicatorLayer.frame = self.bounds;
     _replicatorLayer.instanceCount = _pointsNumber;
     _replicatorLayer.instanceTransform = CATransform3DMakeRotation(region, 0, 0, 1);
-    _replicatorLayer.instanceDelay = _duration / _pointsNumber * _pointsGroupsNumber;
+    _replicatorLayer.instanceDelay = -_duration / _pointsNumber * _pointsGroupsNumber;
     _replicatorLayer.backgroundColor = self.backgroundColor.CGColor;
 }
 

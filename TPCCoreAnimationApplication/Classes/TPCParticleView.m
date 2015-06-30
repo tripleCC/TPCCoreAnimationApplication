@@ -60,6 +60,8 @@
         animation.keyPath = @"position";
         animation.repeatCount = MAXFLOAT;
         animation.duration = TPCParticleViewAnimationDefaultDuration;
+        animation.removedOnCompletion = NO;
+        animation.fillMode = kCAFillModeForwards;
         _animation = animation;
     }
     

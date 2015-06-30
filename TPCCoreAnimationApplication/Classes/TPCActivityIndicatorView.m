@@ -87,6 +87,8 @@
     animation.toValue = @0.0;
     animation.repeatCount = MAXFLOAT;
     animation.duration = TPCActivityIndicatorDefaultDuration;
+    animation.removedOnCompletion = NO;
+    animation.fillMode = kCAFillModeForwards;
     _pointsAnimation = animation;
     [_sourceLayer addAnimation:_pointsAnimation forKey:TPCActivityIndicatorAnimationKey];
 }

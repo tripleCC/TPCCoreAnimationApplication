@@ -12,6 +12,7 @@
 #import "TPCGooButton.h"
 #import "TPCInvertImageView.h"
 #import "TPCParticleView.h"
+#import "TPCPathTrackingView.h"
 
 @interface ViewController ()
 {
@@ -21,6 +22,7 @@
     TPCFoldingImageView *_foldingImageView;
     TPCInvertImageView *_invertView;
     TPCParticleView *_particleView;
+    TPCPathTrackingView *_pathTrackingView;
 }
 @end
 
@@ -48,9 +50,13 @@
     _invertView.image = [UIImage imageNamed:@"1"];
     [self.view addSubview:_invertView];
     
-    _particleView = [[TPCParticleView alloc] initWithFrame:CGRectMake(100, 450, 200, 200)];
+    _particleView = [[TPCParticleView alloc] initWithFrame:CGRectMake(100, 450, 200, 100)];
     _particleView.pointsNumber = 20;
     [self.view addSubview:_particleView];
+    
+    _pathTrackingView = [[TPCPathTrackingView alloc] initWithFrame:CGRectMake(100, 560, 200, 100)];
+    _pathTrackingView.duration = 5.0;
+    [self.view addSubview:_pathTrackingView];
     
     _activityIndicatorView.hidden = YES;
     _particleView.hidden = YES;
@@ -58,6 +64,7 @@
     _gooButton2.hidden = YES;
     _gooButton1.hidden = YES;
     _foldingImageView.hidden = YES;
+    _pathTrackingView.hidden = YES;
     
 }
 - (BOOL)prefersStatusBarHidden
@@ -79,6 +86,9 @@
 }
 - (IBAction)particle:(id)sender {
     _particleView.hidden = NO;
+}
+- (IBAction)tracking:(id)sender {
+    _pathTrackingView.hidden = NO;
 }
 
 

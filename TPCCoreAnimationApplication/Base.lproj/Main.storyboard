@@ -61,6 +61,15 @@
                                     <action selector="invert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qBb-kv-yf1"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWE-Jf-Uhg">
+                                <rect key="frame" x="9" y="104" width="30" height="30"/>
+                                <state key="normal" title="路径">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tracking:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7GR-KP-XPp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.66566705930000003" blue="0.61954965269999995" alpha="1" colorSpace="calibratedRGB"/>
                     </view>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6CDAE1D1B44108100362D1D /* TPCPathTrackingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CDAE1C1B44108100362D1D /* TPCPathTrackingView.m */; };
 		D6CE401B1B3C2CF100FEAD1C /* TPCActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE40121B3C2CF100FEAD1C /* TPCActivityIndicatorView.m */; };
 		D6CE401C1B3C2CF100FEAD1C /* TPCFoldingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE40141B3C2CF100FEAD1C /* TPCFoldingImageView.m */; };
 		D6CE401D1B3C2CF100FEAD1C /* TPCGooButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE40161B3C2CF100FEAD1C /* TPCGooButton.m */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6CDAE1B1B44108100362D1D /* TPCPathTrackingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCPathTrackingView.h; sourceTree = "<group>"; };
+		D6CDAE1C1B44108100362D1D /* TPCPathTrackingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCPathTrackingView.m; sourceTree = "<group>"; };
 		D6CE40111B3C2CF100FEAD1C /* TPCActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCActivityIndicatorView.h; sourceTree = "<group>"; };
 		D6CE40121B3C2CF100FEAD1C /* TPCActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCActivityIndicatorView.m; sourceTree = "<group>"; };
 		D6CE40131B3C2CF100FEAD1C /* TPCFoldingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCFoldingImageView.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				D6CE40181B3C2CF100FEAD1C /* TPCInvertImageView.m */,
 				D6CE40191B3C2CF100FEAD1C /* TPCParticleView.h */,
 				D6CE401A1B3C2CF100FEAD1C /* TPCParticleView.m */,
+				D6CDAE1B1B44108100362D1D /* TPCPathTrackingView.h */,
+				D6CDAE1C1B44108100362D1D /* TPCPathTrackingView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6CDAE1D1B44108100362D1D /* TPCPathTrackingView.m in Sources */,
 				D6CE401D1B3C2CF100FEAD1C /* TPCGooButton.m in Sources */,
 				D6CF097D1B3B076E00FF935C /* ViewController.m in Sources */,
 				D6CE401F1B3C2CF100FEAD1C /* TPCParticleView.m in Sources */,

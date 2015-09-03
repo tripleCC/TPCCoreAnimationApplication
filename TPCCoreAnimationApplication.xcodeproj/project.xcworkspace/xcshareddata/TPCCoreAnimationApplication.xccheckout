@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5E50D65D-B16D-4AF3-9F16-BC2AFB054F3D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TPCCoreAnimationApplication</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E48EF2137A59838E26869C2A457E229A165C2A3E</key>
+		<string>https://github.com/tripleCC/TPCCoreAnimationApplication.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TPCCoreAnimationApplication.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E48EF2137A59838E26869C2A457E229A165C2A3E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tripleCC/TPCCoreAnimationApplication.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E48EF2137A59838E26869C2A457E229A165C2A3E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E48EF2137A59838E26869C2A457E229A165C2A3E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TPCCoreAnimationApplication</string>
+		</dict>
+	</array>
+</dict>
+</plist>
